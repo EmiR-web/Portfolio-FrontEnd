@@ -1,1 +1,102 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap');
+
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    background-color:#070503f8 !important;
+    width: 100%;
+   
+       
+}
+
+
+.card-component-1{
+    color:hsl(0,0%,100%);
+    
+    background:linear-gradient(to bottom, rgba(244, 98, 58, 0.8) 0%, rgba(244, 98, 58, 0.8) 100%), url("assets/images/profile-background2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    
+}
+.card-component-2{
+    color:hsl(0,0%,100%);
+
+    background:linear-gradient(to bottom, rgba(7, 3, 1, 0.8) 0%, rgba(7, 3, 1, 0.8) 100%), url("assets/images/profile-background2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  
+}
+.card-component-3{
+    color:hsl(0,0%,100%);
+   
+    background:linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("assets/images/profile-background2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.card-component-2 .bi{
+    color:rgb(0,0,0) !important;
+}
+
+
+.bg-nav-dark{
+    color:hsl(0,0%,83%);
+    background-color: hsl(0, 0%, 0%,0.3);
+    padding: 0.75em 10px !important;
+
+}
+.navbar{
+    display:flex;
+    justify-content: space-between !important;
+}
+
+.card {
+    
+    padding:60px 20px;
+    font-family: 'Source Sans Pro', sans-serif;  
+   
+    min-height:15rem;
+   
+}
+.align-title{
+    display:flex;
+    justify-content:center;
+}
+
+.btn-primary,.btn-secondary{
+    margin:35px 2px 0 2px;
+}
+.btn-edit{
+    display:flex;
+    justify-content:end;
+}
+.btn-edit .bi{
+
+    margin:0 3px;
+    color:hsla(30, 100%, 99%, 0.801);
+    font-size:20px;
+}
+
+
+#profile-background {
+    padding:0%;
+}
+h2{
+   
+    font-size:4rem !important;
+}
+hr.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+  }
