@@ -2,15 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300&display=swap');
 
 
-body{
-    
-    display: flex;
-    justify-content: center;
-    background-color:#070503f8 !important;
-    width: 100% !important;
-   
-       
-}
 
 
 .card-component-1{

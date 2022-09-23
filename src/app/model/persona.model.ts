@@ -1,21 +1,20 @@
-export class persona {
+export class Persona{
     id?:number;
-    nombre:string;;
-    apellido:string;
-    direccion:string;
-    telefono:string;
-    mail:string;
-    sobreMi:string;
-    url_foto:string;
+    nombre:String;
+    apellido:String;
+    direccion:String;
+    mail:String;
+    telefono:String;
+    url_foto:String;
+    sobre_mi:String;
 
-    constructor(nombre:string, apellido:string, direccion:string, telefono:string, mail:string, sobreMi:string, url_foto:string){
-        
+    constructor(nombre:String, apellido:String, direccion:String, mail:String, telefono:String, url_foto:String, sobre_mi:String){
         this.nombre = nombre;
         this.apellido = apellido;
         this.direccion = direccion;
-        this.telefono = telefono;
         this.mail = mail;
-        this.sobreMi = sobreMi;
+        this.telefono = telefono;
         this.url_foto = url_foto;
+        this.sobre_mi = sobre_mi;
     }
 }

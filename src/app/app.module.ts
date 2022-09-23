@@ -11,9 +11,9 @@ import { HardSoftSkillsComponent } from './components/hard-soft-skills/hard-soft
 import { HeaderComponent } from './components/header/header.component';
 import { HeaderSocialComponent } from './components/header-social/header-social.component';
 import { ProjectsComponent } from './components/projects/projects.component';
-import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
